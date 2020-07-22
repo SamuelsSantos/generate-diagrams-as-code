@@ -59,7 +59,7 @@ with Diagram("Clustered Web Services", show=False):
 
 ```
 
-### Generate diagram throught docker
+### Generate diagram through docker
 
 Remember your path needs to be shared with docker.
 
