@@ -71,6 +71,6 @@ Remember your path needs to be shared with docker,
 │   └── diagram.py
 ```
 
-```
+```bash
 docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
 ```
