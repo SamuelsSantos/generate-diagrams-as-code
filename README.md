@@ -15,7 +15,7 @@ Usually is hard to install and configure some tools and Docker become to make it
 ### Pull image Diagram as Code
 
 ```bash
-    docker pull samuelsantos/diagram-as-code
+    docker pull samuelsantos/generate-diagrams-as-code
 ```
 
 #### Enviroment variables
@@ -71,5 +71,5 @@ Remember your path needs to be shared with docker,
 ```
 
 ```
-    docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams graphviz-diagrams
+    docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
 ```
