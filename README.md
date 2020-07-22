@@ -75,10 +75,10 @@ docker run --rm -t -v ~/diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagram
 
 ## Contributing
 
--   If you want to create an **issue**, use this [guideline](/.github/ISSUE_TEMPLATE/bug_report.md).
+-   If you want to create an **issue**, use this [guideline](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/.github/ISSUE_TEMPLATE/bug_report.md).
 
--   If you want to create an **feature**, use this [guideline](/.github/ISSUE_TEMPLATE/feature_request.md).
+-   If you want to create an **feature**, use this [guideline]([/.github/ISSUE_TEMPLATE/feature_request.md](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/.github/ISSUE_TEMPLATE/feature_request.md)).
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/LICENSE)
