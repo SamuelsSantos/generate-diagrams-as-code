@@ -1,6 +1,6 @@
 # Docker Diagrams as Code
 
-This is the Git non oficial repo image of the [Diagram as code](https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon](https://github.com/mingrammer) and all credits are for him that made this greate job.
+This is a non official Git repo image of the [Diagram as code] (https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon] (https://github.com/mingrammer) and all credits are for him that made this greate job.
 
 Usually is hard to install and configure some tools and Docker become to make it easy. So I decide to create this image to try **Diagrams as Code** and shared here.
 
