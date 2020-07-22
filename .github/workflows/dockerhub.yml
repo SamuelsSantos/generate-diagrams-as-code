@@ -17,10 +17,3 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: ${{ secrets.DOCKER_USERNAME }}/generate-diagrams-as-code
           tag_with_ref: true
-      - name: Docker Hub Description
-        uses: peter-evans/dockerhub-description@v2
-        env:
-          DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          DOCKERHUB_REPOSITORY: ${{ secrets.DOCKER_USERNAME }}/generate-diagrams-as-code
-          README_FILEPATH: ./README.md
