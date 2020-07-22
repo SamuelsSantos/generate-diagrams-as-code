@@ -1,10 +1,8 @@
 # Docker Diagrams as Code
 
-This is a non official Git repo image of the [Diagram as code](https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon](https://github.com/mingrammer) and all credits are for him that made this greate job.
+This is a non official Git image from repo of the [Diagram as code](https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon](https://github.com/mingrammer) and all credits are for him that made this greate job.
 
-Usually is hard to install and configure some tools and Docker become to make it easy. So I decide to create this image to try **Diagrams as Code** and shared here.
-
-> Diagrams lets you draw the cloud system architecture in Python code.
+This image was created to keep your machine more clean and Docker become to make it easy.
 
 ## Getting Started
 
@@ -63,14 +61,24 @@ with Diagram("Clustered Web Services", show=False):
 
 ### Generate diagram throught docker
 
-Remember your path needs to be shared with docker,
+Remember your path needs to be shared with docker.
 
 ```bash
-|...
+├─ ~
 ├── diagrams
 │   └── diagram.py
 ```
 
 ```bash
-docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
+docker run --rm -t -v ~/diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
 ```
+
+## Contributing
+
+-   If you want to create an **issue**, use this [guideline](/.github/ISSUE_TEMPLATE/bug_report.md).
+
+-   If you want to create an **feature**, use this [guideline](/.github/ISSUE_TEMPLATE/feature_request.md).
+
+## License
+
+[MIT](LICENSE)
