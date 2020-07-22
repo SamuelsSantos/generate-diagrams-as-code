@@ -1,6 +1,6 @@
 # Docker Diagrams as Code
 
-This is a non official Git repo image of the [Diagram as code] (https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon] (https://github.com/mingrammer) and all credits are for him that made this greate job.
+This is a non official Git repo image of the [Diagram as code](https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon](https://github.com/mingrammer) and all credits are for him that made this greate job.
 
 Usually is hard to install and configure some tools and Docker become to make it easy. So I decide to create this image to try **Diagrams as Code** and shared here.
 
@@ -10,12 +10,12 @@ Usually is hard to install and configure some tools and Docker become to make it
 
 ### Requires
 
- - [Docker](https://www.docker.com/get-started)
+-   [Docker](https://www.docker.com/get-started)
 
 ### Pull image Diagram as Code
 
 ```bash
-    docker pull samuelsantos/generate-diagrams-as-code
+docker pull samuelsantos/generate-diagrams-as-code
 ```
 
 #### Enviroment variables
@@ -28,7 +28,8 @@ Usually is hard to install and configure some tools and Docker become to make it
 
 Original source [Diagrams](https://diagrams.mingrammer.com/docs/getting-started/examples).
 
-> 
+>
+
 ```python
 # !/diagram.py
 # https://diagrams.mingrammer.com/docs/getting-started/examples
@@ -60,9 +61,9 @@ with Diagram("Clustered Web Services", show=False):
 
 ```
 
-### Generate diagram throught docker 
+### Generate diagram throught docker
 
-Remember your path needs to be shared with docker, 
+Remember your path needs to be shared with docker,
 
 ```bash
 |...
@@ -71,5 +72,5 @@ Remember your path needs to be shared with docker,
 ```
 
 ```
-    docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
+docker run --rm -t -v ./diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams generate-diagrams-as-code
 ```
