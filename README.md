@@ -1,5 +1,7 @@
 # Docker Diagrams as Code
 
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/samuelsantos/generate-diagrams-as-code?style=for-the-badge)
+
 This is a non official Git image from repo of the [Diagram as code](https://diagrams.mingrammer.com) that is mainteined for [MinJae Kwon](https://github.com/mingrammer) and all credits are for him that made this greate job.
 
 This image was created to keep your machine more clean and Docker become to make it easy.
@@ -77,7 +79,7 @@ docker run --rm -t -v ~/diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagram
 
 -   If you want to create an **issue**, use this [guideline](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/.github/ISSUE_TEMPLATE/bug_report.md).
 
--   If you want to create an **feature**, use this [guideline]([/.github/ISSUE_TEMPLATE/feature_request.md](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/.github/ISSUE_TEMPLATE/feature_request.md)).
+-   If you want to create an **feature**, use this [guideline](<[/.github/ISSUE_TEMPLATE/feature_request.md](https://github.com/SamuelsSantos/generate-diagrams-as-code/blob/dev/.github/ISSUE_TEMPLATE/feature_request.md)>).
 
 ## License
 
