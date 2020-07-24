@@ -22,7 +22,7 @@ docker pull samuelsantos/generate-diagrams-as-code
 
 | Variable     | Default | Description                                                                                                                                                                                                                                       |
 | ------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DIAGRAM_FILE |         | This variable represents the name of the python file that you create to generate a diagram. Remember to define a volume **:/data**, your diagram you be generate inside this volume and your python diagram need to be inside this folder volume. |
+| DIAGRAM_FILE |         | This variable represents the name of the python file that you create to generate a diagram. Remember to define a volume **:/data**, your diagram you be generate inside this volume and your python diagram needs to be inside this folder volume. |
 
 ### Create a diagram
 
